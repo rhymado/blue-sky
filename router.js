@@ -36,9 +36,10 @@ const StackNavigator = () => {
   const {Navigator, Screen} = createStackNavigator();
   return (
     <Navigator
-    //   screenOptions={{
-    //     headerShown: false,
-    //   }}
+      initialRouteName="Drawer"
+      // screenOptions={{
+      //   headerShown: false,
+      // }}
     >
       <Screen
         name="Home"
